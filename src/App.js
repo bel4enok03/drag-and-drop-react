@@ -26,6 +26,8 @@ function App() {
 
   }
 
+
+
   function dropHandler(e, card) {
     e.preventDefault()
     setCardList(cardList.map(c => {
